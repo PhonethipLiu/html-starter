@@ -1,3 +1,26 @@
 body {
-    background-color: aquamarine;
+    background-color: rgb(11, 100, 48);
+}
+
+.container {
+    background-color: beige;
+}
+footer {
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    display: webkit-flex;
+    width: 100%;
+}
+
+.flex-section {
+
+}
+
+.flex-item {
+    margin: 1em;
 }
