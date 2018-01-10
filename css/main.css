@@ -5,6 +5,21 @@ body {
 .container {
     background-color: beige;
 }
+
+nav ul{
+    display: flex;
+    display: -webkit-flex;
+}
+
+ul li {
+    display: inline;
+}
+
+nav li{
+    list-style-type: none;
+    color: rgb(82, 126, 95)
+}
+
 footer {
     background-color: cadetblue;
     color: white;
@@ -13,7 +28,7 @@ footer {
 
 .flex-container {
     display: flex;
-    display: webkit-flex;
+    /* display: -webkit-flex; */
     width: 100%;
 }
 
@@ -22,5 +37,16 @@ footer {
 }
 
 .flex-item {
+   width: 70%;
     margin: 1em;
+}
+aside.flex-item  {
+    display: right;
+    width: 30%;
+    margin: 1em;
+
+ }
+
+img {
+    width: 100%;
 }
